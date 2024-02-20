@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>datax-web-plus</artifactId>
+        <groupId>com.dash.datax</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>datax-admin</module>
+        <module>datax-common</module>
+        <module>datax-core</module>
+        <module>datax-rpc</module>
+        <module>datax-transformer</module>
+        <module>datax-executor</module>
+        <module>datax-assembly</module>
+    </modules>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>datax-web</artifactId>
+
+    <description>
+        datax-web 后端服务
+    </description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.test.skip>true</maven.test.skip>
+
+        <commons-lang3.version>3.3.2</commons-lang3.version>
+        <fastjson.version>1.2.70</fastjson.version>
+        <slf4j-api.version>1.7.28</slf4j-api.version>
+        <logback-classic.version>1.2.2</logback-classic.version>
+        <commons-io.version>2.4</commons-io.version>
+        <junit.version>4.12</junit.version>
+        <hutool.version>5.8.22</hutool.version>
+        <postgresql.version>42.2.5</postgresql.version>
+        <mysql-connector.version>5.1.47</mysql-connector.version>
+        <jna.version>4.1.0</jna.version>
+        <groovy.version>2.5.8</groovy.version>
+        <mybatisplus.version>3.3.1</mybatisplus.version>
+        <swagger.version>2.9.2</swagger.version>
+        <swagger-models.version>1.5.21</swagger-models.version>
+        <spring.version>4.3.25.RELEASE</spring.version>
+        <junit.version>4.12</junit.version>
+        <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
+        <swagger-bootstrap-ui.version>1.9.6</swagger-bootstrap-ui.version>
+        <jjwt.version>0.9.0</jjwt.version>
+        <netty.version>4.1.43.Final</netty.version>
+        <hessian.version>4.0.63</hessian.version>
+        <hadoop.version>2.7.3</hadoop.version>
+        <hive.jdbc.version>2.1.0</hive.jdbc.version>
+
+        <hbase.version>1.3.0</hbase.version>
+        <mongo-java-driver.version>3.4.2</mongo-java-driver.version>
+        <oshi.core.version>3.5.0</oshi.core.version>
+
+        <phoenix.version>5.0.0-HBase-2.0</phoenix.version>
+
+        <druid.version>1.2.3</druid.version>
+        <db2jcc.version>db2jcc4</db2jcc.version>
+        <lombok.version>1.18.30</lombok.version>
+        <guava.version>29.0-jre</guava.version>
+    </properties>
+
+
+
+    <!-- 依赖声明 -->
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- SpringBoot的依赖配置-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- hutool 的依赖配置-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-bom</artifactId>
+                <version>${hutool.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
