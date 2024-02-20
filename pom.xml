@@ -9,9 +9,7 @@
 
     <name>DataxWebPlus</name>
     <modules>
-        <module>datax-admin</module>
-        <module>datax-common</module>
-        <module>datax-modules</module>
+        <module>datax-web</module>
     </modules>
 
     <build>
