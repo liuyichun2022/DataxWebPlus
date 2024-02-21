@@ -4,4 +4,4 @@ LABEL MAINTAINER="yangzhuangqiu <yangzhuangqiu@qq.com>"
 WORKDIR /opt/
 ADD datax-admin_2.1.2_1.tar.gz /opt/
 
-ENTRYPOINT exec java $JAVA_OPTS -classpath /opt/datax-admin/lib/*:/opt/datax-admin/conf:. com.dash.datax.admin.DataXAdminApplication
+ENTRYPOINT exec java $JAVA_OPTS -classpath /opt/datax-admin/lib/*:/opt/datax-admin/conf:. com.daas.datax.admin.DataXAdminApplication

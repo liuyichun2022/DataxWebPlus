@@ -103,6 +103,6 @@ RUN mkdir    /opt/${DATAX_NAME}/json /opt/${DATAX_NAME}/python /opt/${DATAX_NAME
 
 EXPOSE ${SERVER_PORT}
 WORKDIR /opt
-ENTRYPOINT exec java com.pji.cloud.datax.executor.DataXExecutorApplication
+ENTRYPOINT exec java com.dash.datax.executor.DataXExecutorApplication
 
 

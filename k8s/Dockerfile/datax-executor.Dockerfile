@@ -5,4 +5,4 @@ WORKDIR /opt/
 ADD datax.tar.gz /opt/
 ADD datax-executor_2.1.2_1.tar.gz /opt/
 
-ENTRYPOINT exec java $JAVA_OPTS -classpath /opt/datax-executor/lib/*:/opt/datax-executor/conf:. com.pji.cloud.datax.executor.DataXExecutorApplication
+ENTRYPOINT exec java $JAVA_OPTS -classpath /opt/datax-executor/lib/*:/opt/datax-executor/conf:. com.dash.datax.executor.DataXExecutorApplication

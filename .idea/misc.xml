@@ -11,7 +11,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/datax-web/datax-core/pom.xml" />
         <option value="$PROJECT_DIR$/datax-web/datax-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/datax-web/datax-rpc/pom.xml" />
       </set>
     </option>
   </component>

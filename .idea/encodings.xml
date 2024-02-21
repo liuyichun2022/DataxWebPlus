@@ -5,8 +5,14 @@
     <file url="file://$PROJECT_DIR$/datax-web/datax-admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datax-web/datax-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datax-web/datax-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-web/datax-executor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-web/datax-executor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datax-web/datax-modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datax-web/datax-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-web/datax-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-web/datax-rpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-web/datax-transformer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datax-web/datax-transformer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datax-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datax-web/src/main/resources" charset="UTF-8" />
   </component>
