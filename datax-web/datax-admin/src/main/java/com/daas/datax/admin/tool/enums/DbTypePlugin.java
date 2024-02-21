@@ -5,10 +5,6 @@ import com.daas.datax.admin.tool.datax.writer.*;
 import com.daas.datax.admin.tool.meta.*;
 import com.daas.datax.admin.tool.query.*;
 import com.pji.cloud.datatx.core.enums.DbType;
-import com.pji.cloud.datax.admin.tool.datax.reader.*;
-import com.pji.cloud.datax.admin.tool.datax.writer.*;
-import com.pji.cloud.datax.admin.tool.meta.*;
-import com.pji.cloud.datax.admin.tool.query.*;
 import lombok.Getter;
 
 /**

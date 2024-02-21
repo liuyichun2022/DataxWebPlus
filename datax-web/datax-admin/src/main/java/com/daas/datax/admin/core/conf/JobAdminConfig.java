@@ -2,7 +2,6 @@ package com.daas.datax.admin.core.conf;
 
 import com.daas.datax.admin.core.scheduler.JobScheduler;
 import com.daas.datax.admin.mapper.*;
-import com.pji.cloud.datax.admin.mapper.*;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;

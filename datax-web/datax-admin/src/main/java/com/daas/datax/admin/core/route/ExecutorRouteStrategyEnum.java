@@ -1,7 +1,6 @@
 package com.daas.datax.admin.core.route;
 
 import com.daas.datax.admin.core.route.strategy.*;
-import com.pji.cloud.datax.admin.core.route.strategy.*;
 import com.daas.datax.admin.core.util.I18nUtil;
 
 /**
