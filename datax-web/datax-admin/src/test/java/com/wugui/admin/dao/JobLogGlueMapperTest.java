@@ -1,7 +1,7 @@
 package com.wugui.admin.dao;
 
-import com.pji.cloud.datax.admin.entity.JobLogGlue;
-import com.pji.cloud.datax.admin.mapper.JobLogGlueMapper;
+import com.daas.datax.admin.entity.JobLogGlue;
+import com.daas.datax.admin.mapper.JobLogGlueMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

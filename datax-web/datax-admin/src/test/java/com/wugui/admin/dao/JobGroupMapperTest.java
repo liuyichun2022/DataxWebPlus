@@ -1,7 +1,7 @@
 package com.wugui.admin.dao;
 
-import com.pji.cloud.datax.admin.entity.JobGroup;
-import com.pji.cloud.datax.admin.mapper.JobGroupMapper;
+import com.daas.datax.admin.entity.JobGroup;
+import com.daas.datax.admin.mapper.JobGroupMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

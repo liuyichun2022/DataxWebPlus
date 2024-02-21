@@ -16,7 +16,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="datax-modules" target="11" />
-      <module name="datax-web" target="1.8" />
+      <module name="datax-web (1)" target="1.8" />
+      <module name="datax-web (2)" target="1.8" />
       <module name="DataxWebPlus" target="1.5" />
     </bytecodeTargetLevel>
   </component>
