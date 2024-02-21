@@ -4,15 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>datax-web-plus</artifactId>
-        <groupId>com.dash.datax</groupId>
+        <groupId>com.daas.datax</groupId>
         <version>1.0.0</version>
     </parent>
     <packaging>pom</packaging>
     <modules>
         <module>datax-admin</module>
         <module>datax-common</module>
-        <module>datax-core</module>
-        <module>datax-rpc</module>
         <module>datax-transformer</module>
         <module>datax-executor</module>
         <module>datax-assembly</module>

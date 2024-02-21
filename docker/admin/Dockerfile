@@ -108,4 +108,4 @@ ENV SERVER_PORT=${SERVER_PORT} \
 
 EXPOSE ${SERVER_PORT}
 WORKDIR /opt
-ENTRYPOINT ["java","-Dlogging.config=/opt/datax-admin/conf/logback.xml","com.dash.datax.admin.DataXAdminApplication"]
+ENTRYPOINT ["java","-Dlogging.config=/opt/datax-admin/conf/logback.xml","com.daas.datax.admin.DataXAdminApplication"]

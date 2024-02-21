@@ -7,12 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="datax-admin" />
-        <module name="datax-web" />
-        <module name="datax-common" />
+        <module name="datax-transformer" />
+        <module name="datax-executor" />
+        <module name="datax-assembly" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="datax-core" target="1.8" />
       <module name="datax-modules" target="11" />
+      <module name="datax-rpc" target="1.8" />
       <module name="DataxWebPlus" target="1.5" />
     </bytecodeTargetLevel>
   </component>
