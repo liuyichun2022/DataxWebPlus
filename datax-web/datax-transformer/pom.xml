@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.daas.datax</groupId>
+        <groupId>com.pji.cloud</groupId>
         <artifactId>datax-web</artifactId>
         <version>1.0.0</version>
     </parent>
