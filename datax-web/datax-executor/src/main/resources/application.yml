@@ -5,7 +5,7 @@ server:
 # log config
 logging:
   config: classpath:logback.xml
-  path: ${DATA_PATH:.}/applogs/executor/jobhandler
+  path: /data/datax/logs/applogs/executor/jobhandler
 
 datax:
   job:
@@ -17,14 +17,14 @@ datax:
       ip:
       port: ${EXECUTOR_PORT:9999}
       ### job log path
-      logpath: ${DATA_PATH:.}/applogs/executor/jobhandler
+      logpath: /data/datax/logs/applogs/executor/jobhandler
       ### job log retention days
       logretentiondays: 30
     ### job, access token
     accessToken:
 
   executor:
-    jsonpath: ${JSON_PATH:.}
+    jsonpath: ${JSON_PATH:/data/datax/datax/bin}
     pythonpath: python
 
   pypath: ${PYTHON_PATH:.}

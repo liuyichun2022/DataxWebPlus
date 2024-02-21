@@ -5,7 +5,7 @@
 内容为：
 {
 "name": "md5",
-"class": "com.daas.datax.transformer.Md5Transformer"
+"class": "com.pji.cloud.datax.transformer.Md5Transformer"
 }
 
 
@@ -15,7 +15,7 @@
 内容为：
 {
 "name": "replaceNewLineSymbol",
-"class": "com.daas.datax.transformer.ReplaceNewLineSymbolTransformer"
+"class": "com.pji.cloud.datax.transformer.ReplaceNewLineSymbolTransformer"
 }
 
 
