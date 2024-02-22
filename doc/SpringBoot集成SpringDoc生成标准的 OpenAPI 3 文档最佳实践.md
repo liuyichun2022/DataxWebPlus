@@ -4,7 +4,7 @@
 SpringDoc 是一个开源项目，用于自动化生成和维护 Spring Boot 应用程序的 OpenAPI 3 规范文档。OpenAPI（以前称为Swagger）是一个规范和完整的框架，用于描述、生产、消费和可视化 RESTful Web 服务的API。SpringDoc 利用 OpenAPI 3 规范，为开发者提供了一种简便的方式来生成和展示他们的 API 文档。
 
 **概览**
-![spring-doc-design.png](img%2Fspring-doc-design.png)
+![spring-doc-overview.png](img%2Fspring-doc-overview.png)
 
 ## 基本概念
 
