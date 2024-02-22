@@ -1,6 +1,6 @@
 package com.pji.cloud.datax.rpc.test;
 
-import com.pji.cloud.datax.rpc.util.IpUtil;
+import com.daas.datax.rpc.util.IpUtil;
 
 import java.net.UnknownHostException;
 

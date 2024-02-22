@@ -1,6 +1,6 @@
 package com.wugui.admin.util;
 
-import com.pji.cloud.datax.admin.core.util.I18nUtil;
+import com.daas.datax.admin.core.util.I18nUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

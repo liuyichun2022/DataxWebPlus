@@ -1,7 +1,7 @@
 package com.pji.cloud.datax.rpc.test;
 
-import com.pji.cloud.datax.rpc.serialize.AbstractSerializer;
-import com.pji.cloud.datax.rpc.serialize.impl.HessianSerializer;
+import com.daas.datax.rpc.serialize.AbstractSerializer;
+import com.daas.datax.rpc.serialize.impl.HessianSerializer;
 
 import java.util.HashMap;
 import java.util.Map;

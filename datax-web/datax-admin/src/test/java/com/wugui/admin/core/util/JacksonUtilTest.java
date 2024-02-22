@@ -1,13 +1,13 @@
 package com.wugui.admin.core.util;
 
-import com.pji.cloud.datax.admin.core.util.JacksonUtil;
+import com.daas.datax.admin.core.util.JacksonUtil;
 import org.hamcrest.core.Is;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.pji.cloud.datax.admin.core.util.JacksonUtil.writeValueAsString;
+import static com.daas.datax.admin.core.util.JacksonUtil.writeValueAsString;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

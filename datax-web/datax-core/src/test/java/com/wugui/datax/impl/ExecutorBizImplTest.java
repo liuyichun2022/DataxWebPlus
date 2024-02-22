@@ -1,12 +1,12 @@
 package com.wugui.datax.impl;
 
-import com.pji.cloud.datatx.core.biz.ExecutorBiz;
-import com.pji.cloud.datatx.core.biz.model.LogResult;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.biz.model.TriggerParam;
-import com.pji.cloud.datatx.core.enums.ExecutorBlockStrategyEnum;
-import com.pji.cloud.datatx.core.executor.JobExecutor;
-import com.pji.cloud.datatx.core.glue.GlueTypeEnum;
+import com.daas.datatx.core.biz.ExecutorBiz;
+import com.daas.datatx.core.biz.model.LogResult;
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.TriggerParam;
+import com.daas.datatx.core.enums.ExecutorBlockStrategyEnum;
+import com.daas.datatx.core.executor.JobExecutor;
+import com.daas.datatx.core.glue.GlueTypeEnum;
 import com.pji.cloud.datax.rpc.remoting.invoker.call.CallType;
 import com.pji.cloud.datax.rpc.remoting.invoker.reference.XxlRpcReferenceBean;
 import com.pji.cloud.datax.rpc.remoting.invoker.route.LoadBalance;

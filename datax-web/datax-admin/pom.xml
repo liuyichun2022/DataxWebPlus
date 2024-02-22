@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.pji.cloud</groupId>
+        <groupId>com.daas.datax</groupId>
         <artifactId>datax-web</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -195,9 +195,9 @@
 
         <!-- datax-core -->
         <dependency>
-            <groupId>com.pji.cloud</groupId>
+            <groupId>com.daas.datax</groupId>
             <artifactId>datax-core</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>
