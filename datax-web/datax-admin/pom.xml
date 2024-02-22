@@ -195,9 +195,9 @@
 
         <!-- datax-core -->
         <dependency>
-            <groupId>com.pji.cloud</groupId>
+            <groupId>com.daas.datax</groupId>
             <artifactId>datax-core</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-api</artifactId>

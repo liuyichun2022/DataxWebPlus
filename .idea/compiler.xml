@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="datax-admin" />
         <module name="datax-transformer" />
         <module name="datax-rpc" />
-        <module name="datax-executor" />
         <module name="datax-assembly" />
+        <module name="datax-web-ui" />
+        <module name="datax-admin" />
+        <module name="datax-executor" />
         <module name="datax-core" />
       </profile>
     </annotationProcessing>

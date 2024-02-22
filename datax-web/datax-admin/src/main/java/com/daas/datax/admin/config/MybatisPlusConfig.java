@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("com.pji.cloud.datax.admin.mapper")
+@MapperScan("com.daas.datax.admin.mapper")
 public class MybatisPlusConfig {
 
     /**
