@@ -1,9 +1,9 @@
 package com.daas.datax.executor.service.command;
 
-import com.pji.cloud.datatx.core.biz.model.TriggerParam;
-import com.pji.cloud.datatx.core.enums.IncrementTypeEnum;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.pji.cloud.datatx.core.util.DateUtil;
+import com.daas.datatx.core.biz.model.TriggerParam;
+import com.daas.datatx.core.enums.IncrementTypeEnum;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datatx.core.util.DateUtil;
 import com.daas.datax.executor.service.jobhandler.DataXConstant;
 import com.daas.datax.executor.util.SystemUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -12,7 +12,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import static com.pji.cloud.datatx.core.util.Constants.SPLIT_COMMA;
+import static com.daas.datatx.core.util.Constants.SPLIT_COMMA;
 
 /**
  * DataX command build

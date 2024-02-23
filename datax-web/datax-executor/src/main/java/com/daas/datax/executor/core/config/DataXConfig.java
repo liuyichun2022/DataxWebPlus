@@ -1,6 +1,6 @@
 package com.daas.datax.executor.core.config;
 
-import com.pji.cloud.datatx.core.executor.impl.JobSpringExecutor;
+import com.daas.datatx.core.executor.impl.JobSpringExecutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
