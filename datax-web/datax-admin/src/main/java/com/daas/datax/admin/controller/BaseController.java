@@ -7,7 +7,7 @@ import com.daas.datax.admin.util.JwtTokenUtils;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
 
-import static com.pji.cloud.datatx.core.util.Constants.STRING_BLANK;
+import static com.daas.datatx.core.util.Constants.STRING_BLANK;
 
 /**
  * base controller

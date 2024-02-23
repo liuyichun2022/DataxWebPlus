@@ -4,7 +4,7 @@ package com.daas.datax.admin.config;
 import com.daas.datax.admin.filter.JWTAuthenticationFilter;
 import com.daas.datax.admin.filter.JWTAuthorizationFilter;
 import com.daas.datax.admin.service.impl.UserDetailsServiceImpl;
-import com.pji.cloud.datatx.core.util.Constants;
+import com.daas.datatx.core.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

@@ -4,7 +4,7 @@ import com.daas.datax.admin.core.trigger.TriggerTypeEnum;
 import com.daas.datax.admin.entity.JobGroup;
 import com.daas.datax.admin.entity.JobInfo;
 import com.daas.datax.admin.entity.JobLog;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.ReturnT;
 import com.daas.datax.admin.core.conf.JobAdminConfig;
 import com.daas.datax.admin.core.util.I18nUtil;
 import org.slf4j.Logger;
