@@ -12,6 +12,7 @@
         <module name="datax-web-ui" />
         <module name="datax-admin" />
         <module name="datax-executor" />
+        <module name="common-doc" />
         <module name="datax-core" />
         <module name="common-core" />
       </profile>

@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/doc/pom.xml" />
         <option value="$PROJECT_DIR$/datax-web-ui/pom.xml" />
         <option value="$PROJECT_DIR$/datax-web/datax-common/common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/datax-web/datax-common/common-bom/pom.xml" />
+        <option value="$PROJECT_DIR$/datax-web/datax-common/common-doc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
