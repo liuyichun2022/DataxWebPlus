@@ -1,7 +1,7 @@
 package com.daas.datax.executor.service.jobhandler;
 
-import com.pji.cloud.datatx.core.log.JobLogger;
-import com.pji.cloud.datatx.core.util.Constants;
+import com.daas.datatx.core.log.JobLogger;
+import com.daas.datatx.core.util.Constants;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;

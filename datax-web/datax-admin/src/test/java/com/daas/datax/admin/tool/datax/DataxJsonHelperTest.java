@@ -1,7 +1,7 @@
 package com.daas.datax.admin.tool.datax;
 
 import com.alibaba.fastjson.JSON;
-import com.pji.cloud.datatx.core.enums.DbType;
+import com.daas.datatx.core.enums.DbType;
 import com.daas.datax.admin.entity.JobDatasource;
 import org.junit.Assert;
 import org.junit.Test;

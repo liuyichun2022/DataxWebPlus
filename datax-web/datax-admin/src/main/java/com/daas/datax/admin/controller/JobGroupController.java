@@ -1,8 +1,8 @@
 package com.daas.datax.admin.controller;
 
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.enums.RegistryConfig;
 import com.daas.datax.admin.core.util.I18nUtil;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.enums.RegistryConfig;
 import com.daas.datax.admin.entity.JobGroup;
 import com.daas.datax.admin.entity.JobRegistry;
 import com.daas.datax.admin.mapper.JobGroupMapper;

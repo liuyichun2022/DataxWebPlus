@@ -1,13 +1,13 @@
 package com.daas.datax.admin.tool.datax;
 
 
+import com.daas.datatx.core.enums.DbType;
 import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.util.TransformerUtil;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import com.daas.datax.admin.dto.DataXJsonBuildDTO;
-import com.pji.cloud.datatx.core.enums.DbType;
 import com.daas.datax.admin.tool.datax.reader.DataxReaderInterface;
 import com.daas.datax.admin.tool.datax.writer.DataxWriterInterface;
 import com.daas.datax.admin.tool.enums.DbTypePlugin;

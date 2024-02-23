@@ -2,7 +2,7 @@ package com.daas.datax.admin.core.thread;
 
 import com.daas.datax.admin.entity.JobGroup;
 import com.daas.datax.admin.entity.JobRegistry;
-import com.pji.cloud.datatx.core.enums.RegistryConfig;
+import com.daas.datatx.core.enums.RegistryConfig;
 import com.daas.datax.admin.core.conf.JobAdminConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,13 +1,13 @@
 package com.daas.datax.admin.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.daas.datax.admin.dto.DataXJsonBuildDTO;
+import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.service.DataxJsonService;
 import com.daas.datax.admin.service.JobDatasourceService;
-import com.daas.datax.admin.dto.DataXJsonBuildDTO;
-import com.pji.cloud.datatx.core.enums.DbType;
-import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.tool.datax.DataXJsonHelper;
 import com.daas.datax.admin.tool.table.TableNameHandle;
+import com.daas.datatx.core.enums.DbType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

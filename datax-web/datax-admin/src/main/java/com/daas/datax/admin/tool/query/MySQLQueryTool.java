@@ -1,6 +1,6 @@
 package com.daas.datax.admin.tool.query;
 
-import com.pji.cloud.datatx.core.enums.DbType;
+import com.daas.datatx.core.enums.DbType;
 
 /**
  * mysql数据库使用的查询工具

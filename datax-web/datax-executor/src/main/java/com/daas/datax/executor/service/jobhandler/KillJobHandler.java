@@ -2,11 +2,11 @@ package com.daas.datax.executor.service.jobhandler;
 
 
 import cn.hutool.core.io.FileUtil;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.biz.model.TriggerParam;
-import com.pji.cloud.datatx.core.handler.AbstractJobHandler;
-import com.pji.cloud.datatx.core.handler.annotation.JobHandler;
-import com.pji.cloud.datatx.core.util.ProcessUtil;
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.TriggerParam;
+import com.daas.datatx.core.handler.AbstractJobHandler;
+import com.daas.datatx.core.handler.annotation.JobHandler;
+import com.daas.datatx.core.util.ProcessUtil;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 

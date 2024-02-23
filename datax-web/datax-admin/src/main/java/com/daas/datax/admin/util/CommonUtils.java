@@ -1,8 +1,8 @@
 package com.daas.datax.admin.util;
 
-import com.pji.cloud.datatx.core.enums.ResUploadType;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.pji.cloud.datatx.core.util.PropertyUtils;
+import com.daas.datatx.core.enums.ResUploadType;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datatx.core.util.PropertyUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.security.UserGroupInformation;
 import org.slf4j.Logger;

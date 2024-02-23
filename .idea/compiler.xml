@@ -13,6 +13,7 @@
         <module name="datax-admin" />
         <module name="datax-executor" />
         <module name="datax-core" />
+        <module name="common-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

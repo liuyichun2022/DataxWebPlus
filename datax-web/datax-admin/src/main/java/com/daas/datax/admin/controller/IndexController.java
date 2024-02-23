@@ -1,6 +1,6 @@
 package com.daas.datax.admin.controller;
 
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.ReturnT;
 import com.daas.datax.admin.service.JobService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,6 +1,6 @@
 package com.daas.datax.admin.tool.table;
 
-import com.pji.cloud.datatx.core.util.Constants;
+import com.daas.datatx.core.util.Constants;
 
 /**
  * 表名称处理

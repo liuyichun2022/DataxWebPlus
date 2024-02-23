@@ -1,10 +1,10 @@
 package com.daas.datax.admin.core.kill;
 
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.TriggerParam;
+import com.daas.datatx.core.enums.ExecutorBlockStrategyEnum;
+import com.daas.datatx.core.glue.GlueTypeEnum;
 import com.daas.datax.admin.core.trigger.JobTrigger;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.biz.model.TriggerParam;
-import com.pji.cloud.datatx.core.enums.ExecutorBlockStrategyEnum;
-import com.pji.cloud.datatx.core.glue.GlueTypeEnum;
 
 import java.util.Date;
 

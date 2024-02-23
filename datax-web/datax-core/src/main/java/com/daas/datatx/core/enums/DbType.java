@@ -1,9 +1,7 @@
 package com.daas.datatx.core.enums;
 
 
-import com.daas.datatx.core.core.datasource.*;
 import com.daas.datatx.core.datasource.*;
-import com.pji.cloud.datatx.core.datasource.*;
 import com.daas.datatx.core.util.Constants;
 import lombok.Getter;
 

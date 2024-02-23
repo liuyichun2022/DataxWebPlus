@@ -1,7 +1,7 @@
 package com.daas.datax.admin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.pji.cloud.datatx.core.enums.DbType;
+import com.daas.datatx.core.enums.DbType;
 import com.daas.datax.admin.entity.JobDatasource;
 
 import java.util.List;
@@ -28,7 +28,7 @@ public interface JobDatasourceService extends IService<JobDatasource> {
      */
     List<JobDatasource> selectAllDatasource();
 
-    int createDataSource(String datasourceName, String datasourceGroup,DbType type, int status, String comments, String parameter);
+    int createDataSource(String datasourceName, String datasourceGroup, DbType type, int status, String comments, String parameter);
 
     int updateDataSource(long id,String datasourceName, String datasourceGroup,DbType type, int status, String comments, String parameter);
 }

@@ -1,7 +1,7 @@
 package com.daas.datax.admin.core.route;
 
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.biz.model.TriggerParam;
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.TriggerParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

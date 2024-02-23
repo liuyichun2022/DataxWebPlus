@@ -1,6 +1,7 @@
 package com.daas.datax.admin.tool.datax.reader;
 
 import cn.hutool.core.util.StrUtil;
+import com.daas.datatx.core.datasource.BaseDataSource;
 import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.tool.datax.BaseDataXPlugin;
 import com.daas.datax.admin.tool.query.DriverConnectionFactory;
@@ -9,7 +10,6 @@ import com.google.common.collect.Maps;
 import com.daas.datax.admin.dto.DataXJsonBuildDTO;
 import com.daas.datax.admin.dto.RdbmsReaderDTO;
 import com.daas.datax.admin.tool.pojo.DataxRdbmsPojo;
-import com.pji.cloud.datatx.core.datasource.BaseDataSource;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package com.daas.datax.admin.controller;
 
 import cn.hutool.core.util.StrUtil;
+import com.daas.datatx.core.biz.model.ReturnT;
 import com.daas.datax.admin.core.util.I18nUtil;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
 import com.daas.datax.admin.entity.JobUser;
 import com.daas.datax.admin.mapper.JobUserMapper;
 import io.swagger.annotations.Api;
@@ -16,7 +16,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.pji.cloud.datatx.core.biz.model.ReturnT.FAIL_CODE;
+import static com.daas.datatx.core.biz.model.ReturnT.FAIL_CODE;
+
 
 /**
  * @author by jingwk on 2019/11/17

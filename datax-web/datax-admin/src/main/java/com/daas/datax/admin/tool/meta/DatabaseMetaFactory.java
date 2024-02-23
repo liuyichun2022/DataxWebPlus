@@ -1,7 +1,7 @@
 package com.daas.datax.admin.tool.meta;
 
+import com.daas.datatx.core.enums.DbType;
 import com.daas.datax.admin.tool.enums.DbTypePlugin;
-import com.pji.cloud.datatx.core.enums.DbType;
 
 /**
  * meta信息工厂
