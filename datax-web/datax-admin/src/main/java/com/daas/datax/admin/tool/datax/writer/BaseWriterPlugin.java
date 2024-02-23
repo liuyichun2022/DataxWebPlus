@@ -1,16 +1,17 @@
 package com.daas.datax.admin.tool.datax.writer;
 
+import com.daas.datatx.core.datasource.BaseDataSource;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datax.admin.dto.DataXJsonBuildDTO;
+import com.daas.datax.admin.dto.RdbmsWriterDTO;
 import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.tool.datax.BaseDataXPlugin;
+import com.daas.datax.admin.tool.pojo.DataxRdbmsPojo;
 import com.daas.datax.admin.tool.query.DriverConnectionFactory;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Maps;
-import com.pji.cloud.datatx.core.datasource.BaseDataSource;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.daas.datax.admin.dto.DataXJsonBuildDTO;
-import com.daas.datax.admin.dto.RdbmsWriterDTO;
-import com.daas.datax.admin.tool.pojo.DataxRdbmsPojo;
 import org.apache.commons.lang3.StringUtils;
+import com.daas.datatx.core.enums.DbType;
 
 import java.util.List;
 import java.util.Map;

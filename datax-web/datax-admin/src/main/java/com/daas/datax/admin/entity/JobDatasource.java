@@ -3,7 +3,7 @@ package com.daas.datax.admin.entity;
 import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.*;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
-import com.pji.cloud.datatx.core.enums.DbType;
+import com.daas.datatx.core.enums.DbType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

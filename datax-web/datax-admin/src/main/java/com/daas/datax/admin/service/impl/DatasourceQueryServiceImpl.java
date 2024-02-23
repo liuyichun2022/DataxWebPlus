@@ -1,17 +1,17 @@
 package com.daas.datax.admin.service.impl;
 
 import cn.hutool.core.util.ObjectUtil;
+import com.daas.datatx.core.datasource.BaseDataSource;
+import com.daas.datatx.core.datasource.DataSourceFactory;
+import com.daas.datatx.core.enums.DbType;
+import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.service.DatasourceQueryService;
 import com.daas.datax.admin.service.JobDatasourceService;
-import com.google.common.collect.Lists;
-import com.pji.cloud.datatx.core.datasource.BaseDataSource;
-import com.pji.cloud.datatx.core.datasource.DataSourceFactory;
-import com.pji.cloud.datatx.core.enums.DbType;
-import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.tool.query.BaseQueryTool;
 import com.daas.datax.admin.tool.query.HBaseQueryTool;
 import com.daas.datax.admin.tool.query.MongoDBQueryTool;
 import com.daas.datax.admin.tool.query.QueryToolFactory;
+import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -53,7 +53,7 @@ public class DatasourceQueryServiceImpl implements DatasourceQueryService {
     public List<String> getTables(Long id, String tableSchema) throws IOException {
         //获取数据源对象
         JobDatasource datasource = jobDatasourceService.getById(id);
-        BaseDataSource datasourceForm=DataSourceFactory.getDatasource(datasource.getType(),datasource.getConnectionParams());
+        BaseDataSource datasourceForm= DataSourceFactory.getDatasource(datasource.getType(),datasource.getConnectionParams());
         //queryTool组装
         if (ObjectUtil.isNull(datasource)) {
             return Lists.newArrayList();

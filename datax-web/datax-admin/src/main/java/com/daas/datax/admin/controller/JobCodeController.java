@@ -1,7 +1,7 @@
 package com.daas.datax.admin.controller;
 
+import com.daas.datatx.core.biz.model.ReturnT;
 import com.daas.datax.admin.core.util.I18nUtil;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
 import com.daas.datax.admin.entity.JobInfo;
 import com.daas.datax.admin.entity.JobLogGlue;
 import com.daas.datax.admin.mapper.JobInfoMapper;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.Date;
 
-import static com.pji.cloud.datatx.core.biz.model.ReturnT.FAIL_CODE;
+import static com.daas.datatx.core.biz.model.ReturnT.FAIL_CODE;
 
 /**
  * @author  jingwk on 2019/11/17

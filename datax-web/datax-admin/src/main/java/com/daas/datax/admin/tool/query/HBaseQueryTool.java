@@ -1,11 +1,11 @@
 package com.daas.datax.admin.tool.query;
 
 
+import com.daas.datatx.core.datasource.HBaseDataSource;
+import com.daas.datatx.core.enums.DbType;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datatx.core.util.JSONUtils;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import com.pji.cloud.datatx.core.datasource.HBaseDataSource;
-import com.pji.cloud.datatx.core.enums.DbType;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.pji.cloud.datatx.core.util.JSONUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.*;
 import org.apache.hadoop.hbase.client.*;

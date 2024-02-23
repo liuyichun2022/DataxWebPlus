@@ -2,7 +2,7 @@ package com.daas.datax.admin.tool.query;
 
 import com.daas.datax.admin.tool.database.ColumnInfo;
 import com.daas.datax.admin.tool.database.TableInfo;
-import com.pji.cloud.datatx.core.enums.DbType;
+import com.daas.datatx.core.enums.DbType;
 
 import java.sql.SQLException;
 import java.util.List;

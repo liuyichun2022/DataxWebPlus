@@ -1,5 +1,6 @@
 package com.daas.datax.admin.tool.datax.writer;
 
+import com.daas.datatx.core.util.Constants;
 import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.util.StringUtil;
 import com.google.common.collect.Lists;
@@ -7,7 +8,6 @@ import com.google.common.collect.Maps;
 import com.daas.datax.admin.dto.DataXJsonBuildDTO;
 import com.daas.datax.admin.dto.HiveWriterDTO;
 import com.daas.datax.admin.tool.pojo.DataxHivePojo;
-import com.pji.cloud.datatx.core.util.Constants;
 
 import java.util.List;
 import java.util.Map;

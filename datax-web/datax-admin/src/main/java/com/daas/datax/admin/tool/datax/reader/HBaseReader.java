@@ -1,14 +1,14 @@
 package com.daas.datax.admin.tool.datax.reader;
 
+import com.daas.datatx.core.datasource.HBaseDataSource;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datatx.core.util.JSONUtils;
 import com.daas.datax.admin.entity.JobDatasource;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.daas.datax.admin.dto.DataXJsonBuildDTO;
 import com.daas.datax.admin.dto.HbaseReaderDTO;
 import com.daas.datax.admin.tool.pojo.DataxHbasePojo;
-import com.pji.cloud.datatx.core.datasource.HBaseDataSource;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.pji.cloud.datatx.core.util.JSONUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
 

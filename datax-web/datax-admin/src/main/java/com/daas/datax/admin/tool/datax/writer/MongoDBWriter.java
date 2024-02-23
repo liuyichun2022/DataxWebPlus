@@ -1,15 +1,15 @@
 package com.daas.datax.admin.tool.datax.writer;
 
-import com.daas.datax.admin.entity.JobDatasource;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
+import com.daas.datatx.core.datasource.MongoDBDataSource;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datatx.core.util.JSONUtils;
 import com.daas.datax.admin.dto.DataXJsonBuildDTO;
 import com.daas.datax.admin.dto.MongoDBWriterDTO;
 import com.daas.datax.admin.dto.UpsertInfo;
-import com.pji.cloud.datatx.core.datasource.MongoDBDataSource;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.pji.cloud.datatx.core.util.JSONUtils;
+import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.tool.pojo.DataxMongoDBPojo;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
 
 import java.util.List;
 import java.util.Map;

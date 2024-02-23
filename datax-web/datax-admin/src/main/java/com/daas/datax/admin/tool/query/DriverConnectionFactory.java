@@ -1,13 +1,13 @@
 package com.daas.datax.admin.tool.query;
 
+import com.daas.datatx.core.datasource.BaseDataSource;
+import com.daas.datatx.core.datasource.OracleDataSource;
+import com.daas.datatx.core.enums.DbConnectType;
+import com.daas.datatx.core.enums.DbType;
+import com.daas.datatx.core.util.Constants;
+import com.daas.datatx.core.util.JSONUtils;
 import com.daas.datax.admin.util.AesUtil;
 import com.daas.datax.admin.util.CommonUtils;
-import com.pji.cloud.datatx.core.datasource.OracleDataSource;
-import com.pji.cloud.datatx.core.enums.DbConnectType;
-import com.pji.cloud.datatx.core.datasource.BaseDataSource;
-import com.pji.cloud.datatx.core.enums.DbType;
-import com.pji.cloud.datatx.core.util.Constants;
-import com.pji.cloud.datatx.core.util.JSONUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.security.UserGroupInformation;
 import org.slf4j.Logger;
@@ -18,7 +18,7 @@ import java.sql.DriverManager;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static com.pji.cloud.datatx.core.util.PropertyUtils.getString;
+import static com.daas.datax.admin.core.util.I18nUtil.getString;
 
 public class DriverConnectionFactory {
 

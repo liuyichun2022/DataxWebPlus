@@ -1,14 +1,14 @@
 package com.daas.datax.admin.controller;
 
 
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.util.DateUtil;
 import com.daas.datax.admin.core.cron.CronExpression;
 import com.daas.datax.admin.core.thread.JobTriggerPoolHelper;
 import com.daas.datax.admin.core.trigger.TriggerTypeEnum;
 import com.daas.datax.admin.core.util.I18nUtil;
 import com.daas.datax.admin.dto.DataXBatchJsonBuildDTO;
 import com.daas.datax.admin.dto.TriggerJobDTO;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.util.DateUtil;
 import com.daas.datax.admin.entity.JobInfo;
 import com.daas.datax.admin.service.JobService;
 import io.swagger.annotations.Api;
@@ -41,8 +41,8 @@ public class JobInfoController extends BaseController{
     @GetMapping("/pageList")
     @ApiOperation("任务列表")
     public ReturnT<Map<String, Object>> pageList(@RequestParam(required = false, defaultValue = "0") int current,
-                                        @RequestParam(required = false, defaultValue = "10") int size,
-                                        int jobGroup, int triggerStatus, String jobDesc, String glueType, Integer[] projectIds) {
+                                                 @RequestParam(required = false, defaultValue = "10") int size,
+                                                 int jobGroup, int triggerStatus, String jobDesc, String glueType, Integer[] projectIds) {
 
         return new ReturnT<>(jobService.pageList((current-1)*size, size, jobGroup, triggerStatus, jobDesc, glueType, 0, projectIds));
     }

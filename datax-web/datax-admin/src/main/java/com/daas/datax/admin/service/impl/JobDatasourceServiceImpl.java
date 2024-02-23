@@ -1,15 +1,14 @@
 package com.daas.datax.admin.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.daas.datax.admin.service.JobDatasourceService;
-import com.pji.cloud.datatx.core.enums.DbType;
 import com.daas.datax.admin.entity.JobDatasource;
 import com.daas.datax.admin.mapper.JobDatasourceMapper;
+import com.daas.datax.admin.service.JobDatasourceService;
+import com.daas.datatx.core.enums.DbType;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-
 import java.util.List;
 
 /**
