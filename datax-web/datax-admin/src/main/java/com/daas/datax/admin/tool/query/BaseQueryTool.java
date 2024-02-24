@@ -423,6 +423,9 @@ public abstract class BaseQueryTool implements QueryToolInterface {
     public List<String> getDbSchema() {
         List<String> schemas = new ArrayList<>();
         String sql = getSQLQueryTableSchema();
+        if (StrUtil.isBlank(sql)) {
+            return schemas;
+        }
         try (Statement stmt = connection.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
