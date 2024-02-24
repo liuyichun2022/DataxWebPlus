@@ -1,5 +1,6 @@
 package com.daas.datax.admin;
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -14,6 +15,7 @@ import java.net.UnknownHostException;
 
 @EnableSwagger2
 @SpringBootApplication(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
+@Slf4j
 public class DataXAdminApplication {
 
     private static Logger logger = LoggerFactory.getLogger(DataXAdminApplication.class);
