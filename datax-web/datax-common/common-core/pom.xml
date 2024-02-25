@@ -28,6 +28,12 @@
             <artifactId>spring-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.daas.datax</groupId>
+            <artifactId>common-json</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <!-- 自定义验证注解 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

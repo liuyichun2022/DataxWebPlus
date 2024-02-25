@@ -9,30 +9,30 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>common-json</artifactId>
+    <artifactId>common-redis</artifactId>
 
     <description>
-        common-json 序列化模块
+        common-redis 缓存服务
     </description>
 
     <dependencies>
+        <!-- RuoYi Common Core-->
         <dependency>
             <groupId>com.daas.datax</groupId>
             <artifactId>common-core</artifactId>
             <version>1.0.0</version>
         </dependency>
 
-        <!-- JSON工具类 -->
+        <!--redisson-->
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
+            <groupId>com.baomidou</groupId>
+            <artifactId>lock4j-redisson-spring-boot-starter</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>

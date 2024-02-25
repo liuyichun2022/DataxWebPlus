@@ -14,10 +14,14 @@
         <option value="$PROJECT_DIR$/datax-web/datax-common/common-core/pom.xml" />
         <option value="$PROJECT_DIR$/datax-web/datax-common/common-bom/pom.xml" />
         <option value="$PROJECT_DIR$/datax-web/datax-common/common-doc/pom.xml" />
+        <option value="$PROJECT_DIR$/datax-web/datax-common/common-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/datax-web/datax-common/common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/datax-web/datax-common/common-json/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/datax-web/datax-common/common-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/datax-web/datax-modules/pom.xml" />
       </set>
     </option>
