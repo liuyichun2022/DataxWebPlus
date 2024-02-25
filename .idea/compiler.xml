@@ -12,16 +12,21 @@
         <module name="datax-web-ui" />
         <module name="datax-admin" />
         <module name="datax-executor" />
+        <module name="common-json" />
+        <module name="common-redis" />
         <module name="common-doc" />
         <module name="datax-core" />
         <module name="common-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-mybatis" target="1.8" />
       <module name="datax-modules" target="11" />
       <module name="datax-web (1)" target="1.8" />
       <module name="datax-web (2)" target="1.8" />
       <module name="DataxWebPlus" target="1.5" />
+      <module name="ruoyi-common-mybatis" target="1.5" />
+      <module name="ruoyi-common-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
