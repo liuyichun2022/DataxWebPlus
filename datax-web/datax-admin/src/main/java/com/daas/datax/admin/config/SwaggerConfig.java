@@ -25,13 +25,18 @@ public class SwaggerConfig implements WebMvcConfigurer {
 
     @Bean
     public Docket createRestApi() {
-        return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("com.wugui.datax.admin.controller")).paths(PathSelectors.any())
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo()).select()
+                .apis(RequestHandlerSelectors.basePackage("com.daas.datax.admin.controller"))
+                .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("DataX Web Api Docs").description("DataX Web Api Docs")
+        return new ApiInfoBuilder()
+                .version("v1.0.0")
+                .title("DataX Web Api Docs")
+                .description("DataX Web Api Docs")
                 .build();
     }
 

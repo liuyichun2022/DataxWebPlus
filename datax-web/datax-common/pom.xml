@@ -16,6 +16,8 @@
         <module>common-bom</module>
         <module>common-core</module>
         <module>common-doc</module>
+        <module>common-redis</module>
+        <module>common-json</module>
     </modules>
 
 </project>
