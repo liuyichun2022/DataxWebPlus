@@ -1,4 +1,4 @@
-package com.wugui.admin.util;
+package com.daas.admin.util;
 
 import java.util.Stack;
 

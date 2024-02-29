@@ -1,6 +1,6 @@
 package com.daas.datax.admin.tool.query;
 
-import com.pji.cloud.datatx.core.enums.DbType;
+import com.daas.datatx.core.enums.DbType;
 import com.daas.datax.admin.entity.JobDatasource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;

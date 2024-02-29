@@ -1,4 +1,4 @@
-package com.wugui.admin.core.util;
+package com.daas.admin.core.util;
 
 import com.daas.datax.admin.core.util.JacksonUtil;
 import org.hamcrest.core.Is;
