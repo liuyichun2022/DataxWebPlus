@@ -1,4 +1,4 @@
-package com.wugui.admin.util;
+package com.daas.admin.util;
 
 import com.daas.datax.admin.core.util.I18nUtil;
 import org.junit.Test;

@@ -1,22 +1,25 @@
-package com.wugui.executor;
+/*
+package com.daas.executor;
 
-import com.pji.cloud.datatx.core.biz.ExecutorBiz;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.biz.model.TriggerParam;
-import com.pji.cloud.datatx.core.enums.ExecutorBlockStrategyEnum;
-import com.pji.cloud.datatx.core.glue.GlueTypeEnum;
-import com.pji.cloud.datax.rpc.remoting.invoker.XxlRpcInvokerFactory;
-import com.pji.cloud.datax.rpc.remoting.invoker.call.CallType;
-import com.pji.cloud.datax.rpc.remoting.invoker.reference.XxlRpcReferenceBean;
-import com.pji.cloud.datax.rpc.remoting.invoker.route.LoadBalance;
-import com.pji.cloud.datax.rpc.remoting.net.impl.netty.http.client.NettyHttpClient;
-import com.pji.cloud.datax.rpc.serialize.impl.HessianSerializer;
+import com.daas.datatx.core.biz.ExecutorBiz;
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.biz.model.TriggerParam;
+import com.daas.datatx.core.enums.ExecutorBlockStrategyEnum;
+import com.daas.datatx.core.glue.GlueTypeEnum;
+import com.daas.datax.rpc.remoting.invoker.XxlRpcInvokerFactory;
+import com.daas.datax.rpc.remoting.invoker.call.CallType;
+import com.daas.datax.rpc.remoting.invoker.reference.XxlRpcReferenceBean;
+import com.daas.datax.rpc.remoting.invoker.route.LoadBalance;
+import com.daas.datax.rpc.remoting.net.impl.netty.http.client.NettyHttpClient;
+import com.daas.datax.rpc.serialize.impl.HessianSerializer;
 
+*/
 /**
  * executor-api client, test
  *
  * @author  xuxueli on 17/5/12.
- */
+ *//*
+
 public class ExecutorBizTest {
 
     public static void main(String[] args) throws Exception {
@@ -28,12 +31,14 @@ public class ExecutorBizTest {
         runTest(jobHandler, params);
     }
 
-    /**
+    */
+/**
      * run jobhandler
      *
      * @param jobHandler
      * @param params
-     */
+     *//*
+
     private static void runTest(String jobHandler, String params) throws Exception {
         // trigger data
         TriggerParam triggerParam = new TriggerParam();
@@ -72,3 +77,4 @@ public class ExecutorBizTest {
     }
 
 }
+*/

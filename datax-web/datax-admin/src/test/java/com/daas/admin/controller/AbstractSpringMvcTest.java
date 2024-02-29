@@ -1,4 +1,4 @@
-package com.wugui.admin.controller;
+package com.daas.admin.controller;
 
 import org.junit.Before;
 import org.junit.runner.RunWith;

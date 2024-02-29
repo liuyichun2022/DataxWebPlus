@@ -1,4 +1,4 @@
-package com.wugui.admin.dao;
+package com.daas.admin.dao;
 
 import com.daas.datax.admin.entity.JobRegistry;
 import com.daas.datax.admin.mapper.JobRegistryMapper;

@@ -1,11 +1,11 @@
-package com.wugui.adminbiz;
+package com.daas.adminbiz;
 
-import com.pji.cloud.datatx.core.biz.AdminBiz;
-import com.pji.cloud.datatx.core.biz.client.AdminBizClient;
-import com.pji.cloud.datatx.core.biz.model.HandleCallbackParam;
-import com.pji.cloud.datatx.core.biz.model.RegistryParam;
-import com.pji.cloud.datatx.core.biz.model.ReturnT;
-import com.pji.cloud.datatx.core.enums.RegistryConfig;
+import com.daas.datatx.core.biz.AdminBiz;
+import com.daas.datatx.core.biz.client.AdminBizClient;
+import com.daas.datatx.core.biz.model.HandleCallbackParam;
+import com.daas.datatx.core.biz.model.RegistryParam;
+import com.daas.datatx.core.biz.model.ReturnT;
+import com.daas.datatx.core.enums.RegistryConfig;
 import org.junit.Assert;
 import org.junit.Test;
 

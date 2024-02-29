@@ -1,4 +1,4 @@
-package com.wugui.admin.dao;
+package com.daas.admin.dao;
 
 import com.daas.datax.admin.entity.JobInfo;
 import com.daas.datax.admin.mapper.JobInfoMapper;
